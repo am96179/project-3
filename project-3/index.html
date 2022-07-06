@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> project-3 the online form </title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&
+family=Dosis&family=Mukta:wght@600&family=Neuton:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!-- project 3 the online form-->
+<body>
+    
+<h1> the code review</h1>
+<header>
+<h2 class="signup"> signup for our news letter</h2>
+<p class="first-para"> get the latest news on how your code is doing
+    right by your inbox
+</p>
+</header>
+
+<main>
+<form class="contact" method="post">
+    <fieldset class="top">
+         
+        <h2 class="info"> contact information</h2>
+
+       <div class="flex"> 
+             <div class=" container">
+                 <label for="name"> full name:</label>
+                     <input type="name" id="name" name="user_name" placeholder="required">
+            </div>
+            <div class=container> 
+                 <label for="mail"> email adress:</label>
+                    <input type="email" id="mail" name="user_email" placeholder="required">
+
+            </div>
+           <div class="container"> 
+                   <label for="number"> phone number:</label>
+                      <input type="tel" id="number" name="user_number">
+
+               </div>
+            <div class="container"> 
+
+                  <label for="adress">street adress:</label>
+                   <input type="text" id="adress" name="user_adress">
+             </div>
+             <div class="container"> 
+
+                      <label for="city"> city:</label>
+                        <input type="text" id="city" name="user_city">
+            </div>
+       <div class="container"> 
+
+           <label for="state">state:</label>
+           <select id="state" name="user_state">
+            <option value=""> click here</option>
+            <optgroup label="state"> 
+            <option value="alabama"> alabama </option>
+            <option value="alaska">alaska </option>
+            <option value="arizona"> arizona</option>
+            <option value="arkansas">arkansas </option>
+            <option value="california"> california </option>
+            <option value="colorado">  colorado</option>
+            <option value="connecticut">connecticut </option>
+            <option value="delaware">delaware </option>
+            <option value="florida"> florida</option>
+            <option value="georgia"> georgia </option>
+            <option value="hawaii"> hawaii </option>
+            <option value="idaho"> idaho</option>
+            <option value="illinois"> illinois</option>
+            <option value="indiana"> indiana</option>
+            <option value="iowa"> iowa</option>
+            <option value="kansas"> kansas </option>
+            <option value="kentucky"> kentucky </option>
+            <option value="lousinana"> lousinana </option>
+            <option value="maine"> maine </option>
+            <option value="maryland">  maryland</option>
+            <option value="massachusetts">  massachusetts</option>
+            <option value="michigan">  michigan</option>
+            <option value="minnesota"> minnesota </option>
+            <option value="mississippi">  mississippi</option>
+            <option value="missouri"> missouri </option>
+            <option value="montana"> montana </option>
+            <option value="nebraska">  nebraska</option>
+            <option value="nevada"> nevada </option>
+            <option value="new-hampshire">  new hampshire</option>
+            <option value="new-jersey"> new jersey </option>
+            <option value="new-mexico"> new mexico </option>
+            <option value="new-york"> new york </option>
+            <option value="north-carolina" > north carloina </option>
+            <option value="north-dakota">  north dakota</option>
+            <option value="ohio"> ohio </option>
+            <option value="oklahoma"> oklahoma </option>
+            <option value="oregon"> oregon </option>
+            <option value="pennsylvania"> pennsylvania </option>
+            <option value="rhode-island">  rhode island</option>
+            <option value="south-carolina">  south carloina</option>
+            <option value="south-dakota">  south dakota </option>
+            <option value="tennessee"> tennessee </option>
+            <option value="texas"> texas </option>
+            <option value="utah"> utah </option>
+            <option value="vermont"> vermont </option>
+            <option value="virginia"> virginia </option>
+            <option value="washington">  washington</option>
+            <option value="west-virginia"> west virginia </option>
+            <option value="wisconsin"> wisconsin </option>
+            <option value="wyoming"> wyoming </option>
+            
+        </optgroup>
+        </select>
+                </div>
+       <div class="container"> 
+            <label for="zip"> zip code: </label><br>
+            <input type="text" id="zip" name="user_zip">
+       <div>
+    </div>
+    </fieldset>
+
+
+ 
+
+
+  
+    
+<fieldset class="bottom">
+<article class="recieve">
+<h2> newsletter</h2>
+<p> select the newsletters you would like to  recieve</p>
+</article>
+
+
+    
+    
+    <input type="checkbox" id="hmtl-news" name="user_news">
+    <label for="html-news"> html news </label><Br>
+    <input type="checkbox" id="css-news" name="user_news">
+    <label for="css-news"> css news </label><Br>
+    <input type="checkbox" id="javascript-news" name="user_news">
+    <label for="javascript-news"> javascript news </label><Br>
+
+    <p> news letter format</p>
+    <input type="radio" id="html" name="user_format">
+    <label for="html"> html</label><Br>
+    <input type="radio" id="plain-text" name="user_format">
+    <label for="plain-text"> plain text</label><br>
+
+    <label for="topics"> other topics you would hear about</label>
+    <textarea id="topics" name="user_topics"> </textarea>
+</fieldset>
+     <div class="flex-button">
+    <button type="submit"> sign up</button>
+</div>
+
+</form>
+</main>
+<footer>
+    <p> copyright the code review</p>
+</footer>
+
+
+
+</body>
+
+
+</html>

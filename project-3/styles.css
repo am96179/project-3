@@ -1,0 +1,161 @@
+/*body { font-family: 'Mukta', sans-serif
+      
+}*/
+* { box-sizing: border-box;
+ font-size: 20px;
+ font-family: 'Dosis', sans-serif;}
+
+h1 {
+     text-transform: capitalize;
+     font-size: 1.5rem;
+     text-align: center;
+     background-color: rgb(80, 78, 78);
+     padding:5vh 0;
+     color:
+     white;
+     margin-bottom: 20px;
+     box-shadow: 1px 2px 3px gray;
+     }
+
+h1::before,h1::after {content: ""; 
+                      background-color: green;
+                      border-radius: 50%;
+                      color: none; 
+                      display: inline-block;
+                      width:20px;
+                      height:20px;
+                      outline: 2px solid white;}
+
+h1::before{ content:"";margin-right: 10px;}
+h1::after{content:"" ;margin-left:12px}
+
+
+
+
+.first-para,.signup{ text-align: center; font-size: 0.8rem; margin: 10px;}
+
+
+.contact{ border-top: 1.5px solid black;
+        
+        padding-bottom: 20px;
+         
+        }
+
+
+input[type="name"],
+input[type="adress"],
+input[type="email"],
+input[type="text"],
+input[type="tel"],
+
+textarea,
+select,
+option { width:100%;
+          border: 1px solid white;
+          background-color: rgb(237, 232, 232);
+          border-radius: 10px; padding:1.2em;
+          margin:15px 0 15px 0;
+          
+ }
+
+ .top{ border-left:none;
+         border-right: none;
+         border-top: none;
+        margin-top: 2px;}
+
+ input:focus{ border:none;
+               border-radius:15px;
+               outline: 2px solid rgb(1, 148, 1);
+               }
+ 
+#zip { width: 50%;}
+
+
+ input[type="name"]::placeholder,
+ input[type="email"]::placeholder { text-align: right;}
+
+ input[type="checkbox"]:checked + label,
+ input[type="radio"]:checked + label{ font-weight: bold;}
+
+ 
+
+ .bottom{ border:none}
+
+
+ #topics{ padding:1.8em 0 1.8em 0}
+
+ 
+
+
+
+ button{ width: 100%;
+        text-align: center;
+        background-color: rgb(23, 161, 23);
+        color:rgb(251, 249, 249);
+        border:none ;
+        padding :1.1em 0 1.1em 0;
+        border-radius: 10px;
+        cursor: pointer; 
+        margin: auto;
+        
+        }
+button:hover{ background-color:  rgb(106, 248, 106) ;
+              cursor: pointer;}
+
+footer { text-align: center;
+         font-size:0.5rem;
+         font-style: italic;}
+
+
+/*--media queries--*/
+
+@media screen and (min-width:768px)
+
+{ .contact,form,.recieve{ width: 700px;
+            margin:auto}
+
+ 
+
+  .container{  display: flex;}
+   
+
+
+label[for="name"],label[for="mail"],label[for="number"],label[for="adress"],
+label[for="city"],label[for="state"],label[for="zip"] {
+
+
+               
+        
+                display: inline-block;
+                width: 200px;
+                text-align: left;
+                padding:35px;
+                margin-right: 60px;
+                }
+.info{ padding:30px}
+#zip{ width:25%; 
+margin-right:auo;
+}
+               
+button{ text-align: center; padding: auto;}
+
+
+
+
+}          
+        
+                     
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
