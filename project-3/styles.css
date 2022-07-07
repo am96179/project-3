@@ -70,6 +70,12 @@ option { width:100%;
  
 #zip { width: 50%;}
 
+legend{ font-weight: 800;
+         text-align: left;
+        font-size: 1.1rem; 
+        margin-bottom:10px;
+       }
+
 
  input[type="name"]::placeholder,
  input[type="email"]::placeholder { text-align: right;}
