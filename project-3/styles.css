@@ -102,7 +102,7 @@ legend{ font-weight: 800;
 
 
 
- button{ width: 90%;
+ button{ width: 80%;
         text-align: center;
         background-color: rgb(23, 161, 23);
         color:rgb(251, 249, 249);
@@ -110,7 +110,7 @@ legend{ font-weight: 800;
         padding :1.1em 0 1.1em 0;
         border-radius: 10px;
         cursor: pointer; 
-        margin-left: 28px;
+        margin-left: 10%;
         
         }
 button:hover{ background-color:  rgb(106, 248, 106) ;
@@ -125,7 +125,9 @@ footer { text-align: center;
 
 @media screen and (min-width:768px)
 
-{ .contact,form,.recieve{ width: 700px;
+
+{  body{ font-size: 2rem;}
+         .contact,form,.recieve{ width: 700px;
             margin:auto}
 
  
@@ -156,8 +158,11 @@ margin-right:auto;
 label[for="zip"] {  padding:40px; margin-right: 105px; }
                
 
-button{ width: 100%;
-        margin-left: 20px:}
+button{  max-width: 700px;
+        width: 100%;
+        margin-left: 3.5vh;
+        
+        ;}
 
 
 
