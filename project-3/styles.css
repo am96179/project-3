@@ -17,6 +17,7 @@ h1 {
      box-shadow: 1px 2px 3px gray;
      }
 
+
 h1::before,h1::after {content: ""; 
                       background-color: green;
                       border-radius: 50%;
@@ -83,6 +84,9 @@ legend{ font-weight: 800;
  input[type="checkbox"]:checked + label,
  input[type="radio"]:checked + label{ font-weight: bold;}
 
+
+ input[type="checkbox"],input[type="radio"]{ cursor: pointer;}
+
  
 
  .bottom{ border:none}
@@ -127,21 +131,22 @@ footer { text-align: center;
 
 
 label[for="name"],label[for="mail"],label[for="number"],label[for="adress"],
-label[for="city"],label[for="state"],label[for="zip"] {
+label[for="city"],label[for="state"] {
 
 
                
         
                 display: inline-block;
-                width: 200px;
+                width: 270px;
                 text-align: left;
                 padding:35px;
                 margin-right: 60px;
                 }
 .info{ padding:30px}
-#zip{ width:25%; 
-margin-right:auo;
+#zip{ width:100px; 
+margin-right:auto;
 }
+label[for="zip"] { display: inline-block; padding:40px; margin-right: 105px; }
                
 button{ text-align: center; padding: auto;}
 
