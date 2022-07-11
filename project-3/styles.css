@@ -11,6 +11,7 @@ h1 {
      text-align: center;
      background-color: rgb(80, 78, 78);
      padding:5vh 0;
+     border-radius: 10px;
      color:
      white;
      margin-bottom: 20px;
@@ -93,7 +94,17 @@ legend{ font-weight: 800;
 
  
 
- .bottom{ border:none}
+ .bottom{ border:none; display: flex; flex-direction: column;}
+
+.bottom  p { text-decoration: underline; font-weight: 500;}
+
+.flex-bottom { display: flex; }
+
+ input + label { display: inline-block;}
+
+
+
+ 
 
 
  #topics{ padding:1.8em 0 1.8em 0}
@@ -114,7 +125,10 @@ legend{ font-weight: 800;
         
         }
 button:hover{ background-color:  rgb(106, 248, 106) ;
-              cursor: pointer;}
+              cursor: pointer;
+              outline: 1.5px solid black;
+              color: black;
+              }
 
 footer { text-align: center;
          font-size:0.5rem;
@@ -130,9 +144,9 @@ footer { text-align: center;
          .contact,form,.recieve{ width: 700px;
             margin:auto}
 
- 
+ .signup{ font-size: 1.3rem;}
 
-  .container{  display: flex;}
+  .container{  display: flex; }
    
 
 
@@ -160,7 +174,7 @@ label[for="zip"] {  padding:40px; margin-right: 105px; }
 
 button{  max-width: 700px;
         width: 100%;
-        margin-left: 3.5vh;
+        margin-left: 2.8vh;
         
         ;}
 

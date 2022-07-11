@@ -22,7 +22,7 @@ family=Dosis&family=Mukta:wght@600&family=Neuton:ital,wght@0,400;0,700;1,400&dis
 </header>
 
 <main>
-<form class="contact" method="post">
+<form class="contact" method="post" action="index.html">
     <fieldset class="top">
          
         <legend class="info"> contact information</legend>
@@ -128,31 +128,40 @@ family=Dosis&family=Mukta:wght@600&family=Neuton:ital,wght@0,400;0,700;1,400&dis
 <fieldset class="bottom">
 <article class="recieve">
 <legend> newsletter</legend>
-<p> select the newsletters you would like to  recieve</p>
+<p> select the newsletters you would like to  recieve:</p>
 </article>
 
 
-    
-    
+
+    <div class=" flex-bottom"> 
     <input type="checkbox" id="hmtl-news" name="user_news" value="html">
     <label for="html-news"> html news </label><Br>
+    </div>
+    <div class=" flex-bottom"> 
     <input type="checkbox" id="css-news" name="user_news" value="css">
     <label for="css-news"> css news </label><Br>
+    </div>
+    <div class=" flex-bottom"> 
     <input type="checkbox" id="javascript-news" name="user_news" value="java">
     <label for="javascript-news"> javascript news </label><Br>
+    </div>
 
-    <p> news letter format</p>
+    <p> news letter format:</p>
+    <div class=" flex-bottom"> 
     <input type="radio" id="html" name="user_format" value="radio-html">
     <label for="html"> html</label><Br>
+    </div>
+    <div class=" flex-bottom"> 
     <input type="radio" id="plain-text" name="user_format" value="radio-text">
     <label for="plain-text"> plain text</label><br><br>
+    </div>
 
     <label for="topics"> other topics you would hear about</label>
     <textarea id="topics" name="user_topics"> </textarea>
 </fieldset>
      <div class="flex-button">
     <button type="submit"> sign up</button>
-</div>
+
 
 </form>
 </main>
