@@ -82,7 +82,7 @@ legend{ font-weight: 800;
        }
 
 
- input[type="name"]::placeholder,
+ input[type="text"]::placeholder,
  input[type="email"]::placeholder { text-align: right;}
 
  input[type="checkbox"]:checked + label,
