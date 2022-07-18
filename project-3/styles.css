@@ -97,7 +97,8 @@ legend{ font-weight: 800;
 
 .bottom  p { text-decoration: underline; font-weight: 500;}
 
-.flex-bottom { display: flex; }
+.flex-bottom { display: flex;}
+#plain-text{ margin-top:-20px}
 
  input + label { display: inline-block;}
 
